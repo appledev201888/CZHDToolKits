@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "CZHDToolKits"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of CZHDToolKits."
 
   # This description is used to generate tags and improve search results.
@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
   #
 
   s.framework     = "UIKit", "Foundation"
-  s.vendored_frameworks = 'Classes/*.framework'
+  s.vendored_libraries = 'Classes/*.a'
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
